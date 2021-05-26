@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jiggle Into JavaScript</title>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+   
+</head>
+<body>
+
+    <p>Press the buttons to change the box!</p>
+
+    <label>Enter value for grow/shrink amount:<input id="growAmount" type= "number" value="10"/></label>
+    <button id="growBtn" onclick="growBtnClick()">Grow</button>
+    <button id="shrinkBtn" onclick="shrinkBtnClick()">Shrink</button>
+    <button id="blueBtn" onclick="blueBtnClick()">Blue</button>
+    <button id="fadeBtn" onclick="fadeBtnClick()">Fade</button>
+    <button id="moveBtn" onclick="moveBtnClick()">Move</button>
+    <button id="moveBackBtn" onclick="moveBackBtnClick()">Move Back</button>
+    <button id="vanishBtn" onclick="vanishBtnClick()">Vanish</button>
+    <button id="resetBtn" onclick="resetBtnClick()">Reset</button>
+
+    <div id="box" style="height:150px; width:150px; background-color:orange; margin:25px;"></div>
+
+    <script src="javascript.js"></script>
+
+
+</body>
+</html>

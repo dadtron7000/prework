@@ -1,0 +1,48 @@
+h1,#center {
+    text-align: center;
+}
+
+#redText {
+    color: red;
+}
+
+#blueText {
+    color: blue;
+}
+
+#greenText {
+    color: green;
+}
+#bigText {
+    font-size: x-large;
+}
+
+#smallText {
+    font-size: x-small;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#fontDif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mix {
+    font-size: x-large;
+    font-weight: bold;
+    color: orange;
+}
+
+.styledFont {
+    color: purple;
+    font-style: italic;
+}
+
+#styledImage {
+    border:solid;
+    border-style: inset;
+    border-color: saddlebrown;
+    border-width: 4px;
+}
